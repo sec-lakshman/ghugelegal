@@ -31,7 +31,7 @@
 <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 <li class="nav-item"><a href="about.php" class="nav-link">About Me</a></li>
 <li class="nav-item active"><a href="practice.php" class="nav-link">Practice Areas</a></li>
-<li class="nav-item"><a href="attorney.php" class="nav-link">Legal Team</a></li>
+<li class="nav-item"><a href="attorney.php" class="nav-link">Team</a></li>
 <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
 <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 </ul>
@@ -217,11 +217,11 @@
 <div class="ftco-footer-widget mb-4 ml-md-4">
 <h2 class="ftco-heading-2">Usefull Links</h2>
 <ul class="list-unstyled">
-<li><a href="#link">Immigration Services</a></li>
-<li><a href="#link">Notary Services</a></li>
-<li><a href="#link">Small Claims</a></li>
-<li><a href="#link">Landlord & Tenant Board</a></li>
-<li><a href="#link">Traffic Tickets</a></li>
+<li><a href="practice.php#link">Immigration Services</a></li>
+<li><a href="practice.php#link">Notary Services</a></li>
+<li><a href="practice.php#link">Small Claims</a></li>
+<li><a href="practice.php#link">Landlord & Tenant Board</a></li>
+<li><a href="practice.php#link">Indian Visa Services</a></li>
 </ul>
 </div>
 </div>

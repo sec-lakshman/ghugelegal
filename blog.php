@@ -361,7 +361,7 @@
 <li><a href="practice.php#link">Notary Services</a></li>
 <li><a href="practice.php#link">Small Claims</a></li>
 <li><a href="practice.php#link">Landlord & Tenant Board</a></li>
-<li><a href="practice.php#link">Traffic Tickets</a></li>
+<li><a href="practice.php#link">Indian Visa Services</a></li>
 </ul>
 </div>
 </div>

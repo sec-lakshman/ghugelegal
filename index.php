@@ -120,12 +120,12 @@ if (isset($_POST['save1'])) {
 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 <select  id="cat" name="cat1" class="form-control" required>
 <option id="select" value="">SELECT</option>
-<option value="">IMMIGRATION SERVICES</option>
-<option value="">NOTARY SERVICES</option>
-<option value="">LANDLORD & TENANT BOARD</option>
-<option value="">TRAFFIC TICKETS</option>
-<option value="">SMALL CLAIMS</option>
-<option value="">ADMINISTRITIVE LAW</option>
+<option value="">Immigration Services</option>
+<option value="">Notary Services</option>
+<option value="">Landlord & Tenant Board</option>
+<option value="">Indian Visa Services</option>
+<option value="">Small Claims</option>
+<option value="">Administritive Law</option>
 </select>
 </div>
 </div>
@@ -204,7 +204,7 @@ if (isset($_POST['save1'])) {
 <span class="flaticon-prison"></span>
 </div>
 <div class="media-body">
-<h3 class="heading">LANDLORD & TENANT Disputes</h3>
+<h3 class="heading">Landlord & Tenant Disputes</h3>
 <!-- <p>We provide legal advice and fight your traffic tickets in Toronto, Peel, Halton, Waterloo, Kitchener, and their surrounding areas. Our primary goal is to either get your tickets dismissed or have the demerit points reduced. Since auto insurance is expensive in Canada, it is worth fighting your traffic ticket.</p> -->
 </div>
 </div>
@@ -257,7 +257,7 @@ if (isset($_POST['save1'])) {
 <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 <div class="block-18 text-center">
 <div class="text">
-<strong class="number" data-number="500">0</strong>
+<strong class="number" data-number="300">0</strong>
 <span>Trusted clients</span>
 </div>
 </div>
@@ -265,7 +265,7 @@ if (isset($_POST['save1'])) {
 <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 <div class="block-18 text-center">
 <div class="text">
-<strong class="number" data-number="1000">0</strong>
+<strong class="number" data-number="500">0</strong>
 <span>Consultations</span>
 </div>
 </div>
@@ -299,8 +299,8 @@ if (isset($_POST['save1'])) {
 <div class="col-md-7 wrap-about pt-md-5 ftco-animate">
 <div class="heading-section mb-5 pt-5 pl-md-5">
 <div class="pr-md-5 mr-md-5 text-md-right">
-<span class="subheading">Providing</span>
-<h2 class="mb-4">Our mission is to fight for your constitutional rights with Empathy and Dexterity</h2>
+<span class="subheading">Facilitating</span>
+<h2 class="mb-4">Access to Justice</h2>
 </div>
 </div>
 <div class="pr-md-3 pr-lg-5 pl-md-5 mr-md-5 mb-5">
@@ -310,7 +310,7 @@ if (isset($_POST['save1'])) {
 </div>
 <div class="media-body pl-md-0 pl-4 pr-4 order-md-first text-md-right">
 <h3 class="heading">Fight for Justice</h3>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+<p>We fight for your constitutional rights with Empathy and Dexterity.</p>
 </div>
 </div>
 <div class="services-wrap d-flex">
@@ -319,7 +319,7 @@ if (isset($_POST['save1'])) {
 </div>
 <div class="media-body pl-md-0 pl-4 pr-4 order-md-first text-md-right">
 <h3 class="heading">Best Case Strategy</h3>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+<p>We succeed in this by helping our clients to craft winning strategies.</p>
 </div>
 </div>
 <div class="services-wrap d-flex">
@@ -328,7 +328,7 @@ if (isset($_POST['save1'])) {
 </div>
 <div class="media-body pl-md-0 pl-4 pr-4 order-md-first text-md-right">
 <h3 class="heading">Profound Experience</h3>
-<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+<p>With rich ecperiece we our clients obtaining favourable decisions in complex cases</p>
 </div>
 </div>
 </div>
@@ -544,11 +544,12 @@ if (isset($_POST['save1'])) {
 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 <select id="cat" id="cat" name="cat" class="form-control" required>
 <option id="select" value="">SELECT</option>
-<option value="">Family Law</option>
-<option value="">Labor Law</option>
-<option value="">Business Ligitation</option>
-<option value="">Employment Law</option>
-<option value="">Criminal Law</option>
+<option value="">Immigration Services</option>
+<option value="">Notary Services</option>
+<option value="">Landlord & Tenant Board</option>
+<option value="">Indian Visa Services</option>
+<option value="">Small Claims</option>
+<option value="">Administritive Law</option>
 </select>
 </div>
 </div>
@@ -576,7 +577,7 @@ if (isset($_POST['save1'])) {
 </div>
 </div>
 <div class="pl-md-3">
-<p>Make an appointment or enqiry to get quotes and estimates to avail our services for Notarization, Legalization of Documents, Canadian Immigration & Citizenship applications, Wrongful dismissal, Landlord & Tenant disputes, Traffic Tickets, and Civil litigations.</p>
+<p>Make an appointment or enqiry to get quotes and estimates to avail our services for Notarization, Legalization of Documents, Canadian Immigration & Citizenship applications, Wrongful dismissal, Landlord & Tenant disputes, Indian Visa Services, and Employment Law.</p>
 <p>For concerns and inquiries about our legal services, you may get in touch using the contact form on this page.
 </p>
 </div>
