@@ -70,7 +70,6 @@
 <p>At Ghuge Legal Services, we serve both local and international clients. We cater to the communities of Peel, Halton, Toronto, Waterloo, and Kitchener area. With our profound knowledge and experience, we can achieve a high success rate in complex and difficult cases.</p>
 <p>We are a Regulated Canadian Immigration Consultant having experience in handling Canadian Immigration applications for Visitor Visa, Super Visa, Study Permit, Work Permit, Express Entry, Parents & Grand Parents Sponsorship, Spousal Sponsorship, LMIA applications, Refugee Claims, Refusal cases, Canadian Citizenship Application, Immigration Appeals, and Criminal Record Suspension.</p>
 <p>In civil litigation, we have experience in filing and defending claims for Fraudulent Misrepresentation, Breach of Contract, Personal Injury, renovation disputes between Contractor & Building Owners, Wrongful Dismissals, Severance of Employment, and Professional Negligence.</p>
-<p>We also represent and advise clients in Landlord and Tenant Board disputes for Non-payment of rent, Wilfull damages, Termination of the lease, and requirement of the rental unit for own use. We provide affordable representation for our clients in defending their Traffic Tickets or a reduction in Demerit Points.</p>
 <p>At Ghuge Legal Services we Notarize documents in accordance with the guidelines of Law Society of Ontario. Our Notary Seal and Signatures are registered in the Global Affairs Canada’s repository. We Commission Affidavits, Statutory Declarations, Notarize Power of Attorney, Legalize documents, and assist clients in obtaining Status Certificates for Marriages Abroad.</p>
 </div>
 </div>
@@ -93,12 +92,10 @@
 </div>
 </div>
 <div class="pb-md-5">
-<p>I am P1 Licensee from the Law Society of Ontario and a Regulated Canadian Immigration Consultant. He is a member in good standing with the Law Society of Ontario and The College of Immigration and Citizenship Consultants, Canada. He is a knowledgeable and resourceful person having experience in Canadian Immigration Law, Small Claims Court, Highway Traffic Act, Residential Tenancy Act, Provincial Offences Act, and Administrative Law. He has a profound understanding of Canadian Immigration Law with experience in assessing, advising, and processing applications for clients with IRCC for various immigration programs.</p>
+<p>Sunil Ghuge is a Licensed Paralegal, Notary Public, and a Regulated Immigration Consultant with over 4 plus years of legal experience in Ontario, Canada and a well-respected person in the community. He has completed his Engineering in India.</p>
 <p>
-My attention is to detail and analytical skills have resolved complex legal problems with simple solutions. During his career, he has ascertained his effective decision-making capabilities by providing the right advice in acute, ambiguous, and complicated situations.
-</p>
-<p>
-I have acquired these professional attributes while working in tandem with the Senior Counsels. These Senior  Counsels have more than 15 years of cumulative legal experience. At Ghuge Legal Services, we can refer your case to these Senior Counsels if your matter warrants an appeal to the Federal Court, Divisional Court, or Superior Courts.</p><br/>
+During his career, he has ascertained his effective decision-making capabilities by providing the right advice in acute, ambiguous, and complicated situations. His professional experience and association with senior counsel have been instrumental in obtaining favourable decisions for his clients in complex cases.
+</p><br/>
 
 <h4 class="mb-3 mt-5 heading">My Objective</h4>
 <p>Our mission is to fight for your constitutional rights with Empathy and Dexterity</p>
@@ -108,7 +105,15 @@ I have acquired these professional attributes while working in tandem with the S
 <span class="flaticon-cap"></span>
 </div>
 <div>
-<p><strong>University of Oxford School of Law, J.D., 1988</strong> - When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+<p><strong>Diploma in Paralegal Studies</strong> - When she reached the first hills of the Italic Mountains</p>
+</div>
+</div>
+<div class="educ d-flex align-items-center">
+<div class="icon">
+<span class="flaticon-cap"></span>
+</div>
+<div>
+<p><strong>Diploma in Immigration Law from Ontario, Canada</strong>
 </div>
 </div>
 <h4 class="mb-3 mt-5 heading">Professional Credentials</h4>
@@ -136,16 +141,23 @@ I have acquired these professional attributes while working in tandem with the S
 <p><strong>Notary Public and Commissioner of Oath - </strong> <span>Province of Ontario.</span></p>
 </div>
 </div>
+<h4 class="mb-3 mt-5 heading">Membership and &amp; Associatons</h4>
 <div class="educ d-flex align-items-center">
 <div class="icon">
 <span class="flaticon-cap"></span>
 </div>
 <div>
-<p><strong>Authorized Paid Representative - </strong> <span>IRCC # P 255890015815.</span></p>
+<p><strong>Membership of Ontaio Paralegal Association</strong>
 </div>
 </div>
-<h4 class="mb-3 mt-5 heading">Honors &amp; Awards</h4>
-<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+<div class="educ d-flex align-items-center">
+<div class="icon">
+<span class="flaticon-cap"></span>
+</div>
+<div>
+<p><strong>Regulated Canadian Immigration Consultant</strong>
+</div>
+</div>
 </div>
 </div>
 </div>
@@ -245,7 +257,7 @@ I have acquired these professional attributes while working in tandem with the S
 <li><a href="practice.php#link">Notary Services</a></li>
 <li><a href="practice.php#link">Small Claims</a></li>
 <li><a href="practice.php#link">Landlord & Tenant Board</a></li>
-<li><a href="practice.php#link">Traffic Tickets</a></li>
+<li><a href="practice.php#link">Indian Visa Services</a></li>
 </ul>
 </div>
 </div>

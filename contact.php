@@ -57,7 +57,7 @@ if (isset($_POST['save'])) {
 <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
 <li class="nav-item"><a href="about.php" class="nav-link">About Me</a></li>
 <li class="nav-item"><a href="practice.php" class="nav-link">Practice Areas</a></li>
-<li class="nav-item"><a href="attorney.php" class="nav-link">Legal Team</a></li>
+<li class="nav-item"><a href="attorney.php" class="nav-link">Team</a></li>
 <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
 <li class="nav-item active"><a href="contact.php" class="nav-link">Contact</a></li>
 </ul>
@@ -97,12 +97,12 @@ if (isset($_POST['save'])) {
 </div>
 <div class="col-md-3 d-flex">
 <div class="con align-self-stretch p-3">
-<p><span>Email:</span> <a href="mailto:info@ghugelegal.com"><span class="icon icon-envelope"><span class="__cf_email__" data-cfemail="bdd4d3dbd2fdc4d2c8cfced4c9d893ded2d0">info@ghugelegal.com</span></a></p>
+<p><span>Email:</span> <a href="mailto:info@ghugelegal.com"><span class="__cf_email__" data-cfemail="bdd4d3dbd2fdc4d2c8cfced4c9d893ded2d0">info@ghugelegal.com</span></a></p>
 </div>
 </div>
 <div class="col-md-3 d-flex">
 <div class="con align-self-stretch p-3">
-<p><span>Website</span> <a href="#">yoursite.com</a></p>
+<p><span>Website:</span> <a href="https://www.ghugelegal.com"></span> <a href="#">www.ghugelegal.com</a></p>
 </div>
 </div>
 </div>
@@ -150,11 +150,11 @@ if (isset($_POST['save'])) {
 <div class="ftco-footer-widget mb-4 ml-md-4">
 <h2 class="ftco-heading-2">Usefull Links</h2>
 <ul class="list-unstyled">
-<li><a href="#">Family Law</a></li>
-<li><a href="#">Drug Law</a></li>
-<li><a href="#">Insurance Law</a></li>
-<li><a href="#">Criminal Law</a></li>
-<li><a href="#">Business Law</a></li>
+<li><a href="practice.php#link">Immigration Services</a></li>
+<li><a href="practice.php#link">Notary Services</a></li>
+<li><a href="practice.php#link">Small Claims</a></li>
+<li><a href="practice.php#link">Landlord & Tenant Board</a></li>
+<li><a href="practice.php#link">Indian Visa Services</a></li>
 </ul>
 </div>
 </div>
