@@ -46,7 +46,7 @@
 <div class="row slider-text justify-content-center align-items-center">
 <div class="col-md-7 col-sm-12 text-center ftco-animate">
 <h1 class="mb-3 mt-5 bread">Meet Our Team</h1>
-<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Attorney</span></p>
+<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span>
 </div>
 </div>
 </div>
@@ -66,9 +66,9 @@
 <div class="staff">
 <div class="img" style="background-image:url(images/xperson_1.jpg.pagespeed.ic.a2MnMHMs44.webp)"></div>
 <div class="text pt-4">
-<h3><span>Incharge: </span>David Smith</h3>
-<span class="position mb-2">Family Lawyer</span>
-<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+<h3><span>Incharge: </span>Sunil Ghuge</h3>
+<span class="position mb-2">Licensed and Regulated Consultant</span>
+<p>Licensed Paralegal, Notary Public and Regulated Canadian Immigration Consultant</p>
 <ul class="ftco-social d-flex">
 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -82,9 +82,9 @@
 <div class="staff">
 <div class="img" style="background-image:url(images/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp.webp)"></div>
 <div class="text pt-4">
-<h3><span>Incharge: </span>David Smith</h3>
-<span class="position mb-2">Consumer Lawyer</span>
-<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+<h3><span>Incharge: </span>Gopal Chandru</h3>
+<span class="position mb-2">Intern</span>
+<p></p>
 <ul class="ftco-social d-flex">
 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -98,9 +98,9 @@
 <div class="staff">
 <div class="img" style="background-image:url(images/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp)"></div>
 <div class="text pt-4">
-<h3><span>Incharge: </span>David Smith</h3>
-<span class="position mb-2">Criminal Lawyer</span>
-<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+<h3><span>Incharge: </span>Lakshman Pawar</h3>
+<span class="position mb-2">Information Security Consultant</span>
+<p>Soul interest and passion to improve privicy and confidentiality of data</p>
 <ul class="ftco-social d-flex">
 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -114,9 +114,9 @@
 <div class="staff">
 <div class="img" style="background-image:url(images/xperson_4.jpg.pagespeed.ic.ucbtJ1Htlo.webp)"></div>
 <div class="text pt-4">
-<h3><span>Incharge: </span>David Smith</h3>
-<span class="position mb-2">Business Lawyer</span>
-<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+<h3><span>Incharge: </span>Smith</h3>
+<span class="position mb-2">Intern</span>
+<p></p>
 <ul class="ftco-social d-flex">
 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>

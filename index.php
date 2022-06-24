@@ -319,7 +319,7 @@ if (isset($_POST['save1'])) {
 </div>
 <div class="media-body pl-md-0 pl-4 pr-4 order-md-first text-md-right">
 <h3 class="heading">Best Case Strategy</h3>
-<p>We succeed in this by helping our clients to craft winning strategies.</p>
+<p>We succeed in this by crafting winning strategies for our clients</p>
 </div>
 </div>
 <div class="services-wrap d-flex">
@@ -328,7 +328,7 @@ if (isset($_POST['save1'])) {
 </div>
 <div class="media-body pl-md-0 pl-4 pr-4 order-md-first text-md-right">
 <h3 class="heading">Profound Experience</h3>
-<p>With rich ecperiece we our clients obtaining favourable decisions in complex cases</p>
+<p>With our rich and profound experiece we help clients obtaining favourable decisions in complex cases</p>
 </div>
 </div>
 </div>
@@ -607,7 +607,7 @@ if (isset($_POST['save1'])) {
 <li><a href="practice.php#link">Notary Services</a></li>
 <li><a href="practice.php#link">Small Claims</a></li>
 <li><a href="practice.php#link">Landlord & Tenant Board</a></li>
-<li><a href="practice.php#link">Traffic Tickets</a></li>
+<li><a href="practice.php#link">Indian Visa Services</a></li>
 </ul>
 </div>
 </div>

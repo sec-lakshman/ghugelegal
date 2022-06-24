@@ -48,7 +48,7 @@ if (isset($_POST['save'])) {
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 <div class="container">
-<a class="navbar-brand" href="index.php">Marco<span>.co</span></a>
+<a class="navbar-brand" href="index.php">Ghugelegal<span>.com</span></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="oi oi-menu"></span> Menu
 </button>
@@ -138,7 +138,7 @@ if (isset($_POST['save'])) {
 <div class="col-md">
 <div class="ftco-footer-widget mb-4">
 <h2 class="ftco-heading-2">About Me</h2>
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+<p>Licensed Paralegal, Notary Public and Regulated Canadian Immigration Consultant</p>
 <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -186,7 +186,7 @@ if (isset($_POST['save'])) {
 <div class="row">
 <div class="col-md-12 text-center">
 <p>
-Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script data-cfasync="false" src="js/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | Ghuge Legal Services
 </p>
 </div>
 </div>

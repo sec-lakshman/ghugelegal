@@ -59,7 +59,7 @@
 <div class="practice">
 <a href="#" class="img" style="background-image:url(images/xpractice-1.jpg.pagespeed.ic.eIVTGR4XD3.webp)"></a>
 <div class="info">
-<h3><a href="#">Immigration</a></h3>
+<h3><a href="#">Immigration Services</a></h3>
 <p>We are a one-stop-shop for all your immigration services need. We provide help in PR, PNP, Visitor Visa and Parents Visa and many more.</p>
 </div>
 </div>
@@ -68,8 +68,8 @@
 <div class="practice">
 <a href="#" class="img" style="background-image:url(images/xpractice-2.jpg.pagespeed.ic.zQqFObmL0_.webp)"></a>
 <div class="info">
-<h3><a href="#">Small Claims</a></h3>
-<p>It deals with civil disputes of a monetary value of up to $35,000. We have the knowledge of issues and facts that are required to be raised during the course of settlement or litigation and develop a powerful strategy to guard your interests.</p>
+<h3><a href="#">Notary Services and Commission of Oath</a></h3>
+<p>Our promotional services are priced at only $20 for the first, second, and third document and $10.00 for every subsequent document per client.</p>
 </div>
 </div>
 </div>
@@ -77,8 +77,8 @@
 <div class="practice">
 <a href="#" class="img" style="background-image:url(images/xpractice-3.jpg.pagespeed.ic.GYOtnpQL8P.webp)"></a>
 <div class="info">
-<h3><a href="#">Traffic Tickets</a></h3>
-<p>We provide legal advice and fight your traffic tickets in Toronto, Peel, Halton, Waterloo, Kitchener, and their surrounding areas. Our primary goal is to either get your tickets dismissed or have the demerit points reduced. Since auto insurance is expensive in Canada, it is worth fighting your traffic ticket.</p>
+<h3><a href="#">Indian Visa Services</a></h3>
+<p>We are a one-stop-shop for all your indian visa services you need</p>
 </div>
 </div>
 </div>
@@ -95,8 +95,8 @@
 <div class="practice">
 <a href="#" class="img" style="background-image:url(images/xpractice-5.jpg.pagespeed.ic.5oMJKH3JkE.webp)"></a>
 <div class="info">
-<h3><a href="#">Notary Services and Commission of Oath</a></h3>
-<p>Our promotional services are priced at only $20 for the first, second, and third document and $10.00 for every subsequent document per client.</p>
+<h3><a href="#">Small Claims</a></h3>
+<p>It deals with civil disputes of a monetary value of up to $35,000. We have the knowledge of issues and facts that are required to be raised during the course of settlement or litigation and develop a powerful strategy to guard your interests.</p>
 </div>
 </div>
 </div>
@@ -205,7 +205,7 @@
 <div class="col-md">
 <div class="ftco-footer-widget mb-4">
 <h2 class="ftco-heading-2">About Me</h2>
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+<p>Licensed Paralegal, Notary Public and Regulated Canadian Immigration Consultant</p>
 <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -239,10 +239,10 @@
 </div>
 <div class="col-md">
 <div class="ftco-footer-widget mb-4">
-<h2 class="ftco-heading-2">Have a Questions?</h2>
+<h2 class="ftco-heading-2">Have a Question?</h2>
 <div class="block-23 mb-3">
 <ul>
-<li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+<li><span class="icon icon-map-marker"></span><span class="text">52 Village Center Pl, Suite 103,Mississauga, Ontario. L4Z 1V9</span></li>
 <li><a href="tel:+1 289-203-0424"><span class="icon icon-phone"></span><span class="text">+1 289-203-0424</span></a></li>
 <li><a href="mailto:info@ghugelegal.com"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="9cf5f2faf3dce5f3e9eef8f3f1fdf5f2b2fff3f1">info@ghugelegal.com</span></span></a></li>
 </ul>
