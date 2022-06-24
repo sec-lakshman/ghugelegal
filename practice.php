@@ -22,18 +22,18 @@
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 <div class="container">
-<a class="navbar-brand" href="index.html">Ghugelegal<span>.com</span></a>
+<a class="navbar-brand" href="index.php">Ghugelegal<span>.com</span></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="oi oi-menu"></span> Menu
 </button>
 <div class="collapse navbar-collapse" id="ftco-nav">
 <ul class="navbar-nav ml-auto">
-<li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-<li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
-<li class="nav-item active"><a href="practice.html" class="nav-link">Practice Areas</a></li>
-<li class="nav-item"><a href="attorney.html" class="nav-link">Legal Team</a></li>
-<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+<li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="about.php" class="nav-link">About Me</a></li>
+<li class="nav-item active"><a href="practice.php" class="nav-link">Practice Areas</a></li>
+<li class="nav-item"><a href="attorney.php" class="nav-link">Legal Team</a></li>
+<li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
+<li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 </ul>
 </div>
 </div>
@@ -46,13 +46,13 @@
 <div class="row slider-text justify-content-center align-items-center">
 <div class="col-md-7 col-sm-12 text-center ftco-animate">
 <h1 class="mb-3 mt-5 bread">Practice Areas</h1>
-<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home</a></span> <span>Practice</span></p>
+<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Practice</span></p>
 </div>
 </div>
 </div>
 </div>
 </section>
-<section class="ftco-section">
+<section class="ftco-section" id="link">
 <div class="container">
 <div class="row">
 <div class="col-md-4">
@@ -217,11 +217,11 @@
 <div class="ftco-footer-widget mb-4 ml-md-4">
 <h2 class="ftco-heading-2">Usefull Links</h2>
 <ul class="list-unstyled">
-<li><a href="#">Family Law</a></li>
-<li><a href="#">Drug Law</a></li>
-<li><a href="#">Insurance Law</a></li>
-<li><a href="#">Criminal Law</a></li>
-<li><a href="#">Business Law</a></li>
+<li><a href="#link">Immigration Services</a></li>
+<li><a href="#link">Notary Services</a></li>
+<li><a href="#link">Small Claims</a></li>
+<li><a href="#link">Landlord & Tenant Board</a></li>
+<li><a href="#link">Traffic Tickets</a></li>
 </ul>
 </div>
 </div>
@@ -229,11 +229,11 @@
 <div class="ftco-footer-widget mb-4">
 <h2 class="ftco-heading-2">Quick Links</h2>
 <ul class="list-unstyled">
-<li><a href="#">About Us</a></li>
-<li><a href="#">Practice Areas</a></li>
-<li><a href="#">Appointment</a></li>
-<li><a href="#">Terms &amp; Conditions</a></li>
-<li><a href="#">FAQ</a></li>
+<li><a href="about.php">About Us</a></li>
+<li><a href="practice.php">Practice Areas</a></li>
+<li><a href="attorney.php">Team</a></li>
+<li><a href="blog.php">Blog</a></li>
+<li><a href="contact.php">Contact</a></li>
 </ul>
 </div>
 </div>
@@ -243,8 +243,8 @@
 <div class="block-23 mb-3">
 <ul>
 <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-<li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-<li><a href="#"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="3b52555d547b42544e495f54565a525515585456">[email&#160;protected]</span></span></a></li>
+<li><a href="tel:+1 289-203-0424"><span class="icon icon-phone"></span><span class="text">+1 289-203-0424</span></a></li>
+<li><a href="mailto:info@ghugelegal.com"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="9cf5f2faf3dce5f3e9eef8f3f1fdf5f2b2fff3f1">info@ghugelegal.com</span></span></a></li>
 </ul>
 </div>
 </div>
@@ -253,7 +253,7 @@
 <div class="row">
 <div class="col-md-12 text-center">
 <p>
-Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | Ghuge Legal Services</a>
 </p>
 </div>
 </div>

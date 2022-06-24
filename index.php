@@ -1,3 +1,45 @@
+ <?php  
+include 'connect.php';
+if (isset($_POST['save'])) { 
+        
+               
+
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $date = $_POST['date'];
+    $cat = $_POST['cat'];
+    $message = $_POST['message'];
+
+    // printf("You have selected :" .$name);
+    // printf("You have selected :" .$email);
+    // printf("You have selected :" .$cat);
+    // printf("You have selected :" .$date);
+    // printf("You have selected :" .$message);
+
+
+
+
+    $sql = "INSERT INTO Appointment (name,date,email,categories,message,type) VALUES ('$name','$date','$email','$cat','$message','Appointment')";
+     // printf($sql);
+    if (mysqli_query($db,$sql)) {
+    	header("Refresh:1; url=index.php");
+        // echo "uploaded successfully";
+    	}
+}
+if (isset($_POST['save1'])) { 
+    $name = $_POST['name1'];
+    $email = $_POST['email1'];
+    $cat = $_POST['cat1'];
+    $message = $_POST['message1'];
+    $sql = "INSERT INTO Appointment (name,email,categories,message,type) VALUES ('$name','$email','$cat','$message','enqiry')";
+     // printf($sql);
+    if (mysqli_query($db,$sql)) {
+    	header("Refresh:1; url=index.php");
+        // echo "uploaded successfully";
+    	}
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,18 +62,18 @@
 <body>
 <nav class="navbar navbar-expand-lg navabar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 <div class="container">
-<a class="navbar-brand" href="index.html">Ghugelegal<span>.com</span></a>
+<a class="navbar-brand" href="index.php">Ghugelegal<span>.com</span></a>
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 <span class="oi oi-menu"></span> Menu
 </button>
 <div class="collapse navbar-collapse" id="ftco-nav">
 <ul class="navbar-nav ml-auto">
-<li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-<li class="nav-item"><a href="about.html" class="nav-link">About Me</a></li>
-<li class="nav-item"><a href="practice.html" class="nav-link">Practice Areas</a></li>
-<li class="nav-item"><a href="attorney.html" class="nav-link">Team</a></li>
-<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+<li class="nav-item active"><a href="index.php" class="nav-link">Home</a></li>
+<li class="nav-item"><a href="about.php" class="nav-link">About Me</a></li>
+<li class="nav-item"><a href="practice.php" class="nav-link">Practice Areas</a></li>
+<li class="nav-item"><a href="attorney.php" class="nav-link">Team</a></li>
+<li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
+<li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 </ul>
 </div>
 </div>
@@ -44,7 +86,7 @@
 	<br /><br />
 <span class="subheading">Hello,</span>
 <h1>I'm Sunil Ghuge</h1>
-<h2 class="mb-5">Immigration Consultant, Licensed Paralegal Lawyer</h2>
+<h2 class="mb-5">Immigration Consultant, Licensed Paralegal and Notary Public</h2>
 <!-- <p><a href="#" class="btn-custom py-3 pr-2">Contact Me</a></p> -->
 </div>
 </div>
@@ -58,41 +100,42 @@
 <div class="container">
 <div class="row align-items-center">
 <div class="col-lg-2 text-lg-right">
-<h3 class="mb-4 mb-lg-0">My Free Consultation</h3>
+<h3 class="mb-4 mb-lg-0">Enqiry Form</h3>
 </div>
 <div class="col-lg-10">
-<form action="#" class="consult-form">
+<form action="#dropdown1"method="post" class="consult-form py-5">
 <div class="d-lg-flex align-items-md-end">
 <div class="form-group mb-3 mb-lg-0 mr-4">
 <label for="#">Name</label>
-<input type="text" class="form-control" placeholder="Name">
+<input type="text" id="name1" name="name1" class="form-control" placeholder="Name" required>
 </div>
 <div class="form-group mb-3 mb-lg-0 mr-4">
 <label for="#">Email Address</label>
-<input type="text" class="form-control" placeholder="Email Address">
+<input type="text" id="email1" name="email1" class="form-control" placeholder="Email Address" required>
 </div>
 <div class="form-group mb-3 mb-lg-0 mr-4">
-<label for="#">Categories</label>
+<label for="#">Categories(optional)</label>
 <div class="form-field">
 <div class="select-wrap">
 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-<select name="" id="" class="form-control">
-<option value="">Small Claims</option>
-<option value="">Immigration Services</option>
-<option value="">Notary Services</option>
-<option value="">Landlord & Tenant Board</option>
-<option value="">Traffic Tickets</option>
-<option value="">Administritive Law</option>
+<select  id="cat" name="cat1" class="form-control" required>
+<option id="select" value="">SELECT</option>
+<option value="">IMMIGRATION SERVICES</option>
+<option value="">NOTARY SERVICES</option>
+<option value="">LANDLORD & TENANT BOARD</option>
+<option value="">TRAFFIC TICKETS</option>
+<option value="">SMALL CLAIMS</option>
+<option value="">ADMINISTRITIVE LAW</option>
 </select>
 </div>
 </div>
 </div>
 <div class="form-group mb-3 mb-lg-0 mr-4">
 <label for="#">Message</label>
-<textarea name="" id="" cols="30" rows="3" class="form-control d-flex align-items-center" placeholder="Message"></textarea>
+<textarea id="message1" name="message1"cols="30" rows="3" class="form-control d-flex align-items-center" placeholder="Message"></textarea>
 </div>
 <div class="form-group">
-<input type="submit" value="Send Message" class="btn btn-primary py-3 px-4">
+<input type="submit" name="save1" value="Send Message" class="btn btn-primary py-3 px-4">
 </div>
 </div>
 </form>
@@ -101,7 +144,7 @@
 </div>
 </section>
 <section class="ftco-section ftco-services">
-<div class="container">
+<div class="container" id="link">
 <div class="row justify-content-center mb-5 pb-3">
 <div class="col-lg-7 heading-section ftco-animate">
 <h2 class="subheading">Services</h2>
@@ -110,7 +153,7 @@
 <h4 class="mb-4">My Legal Practice Areas</h4>
 </div>
 </div>
-<div class="row">
+<div class="row" >
 <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
 <div class="media block-6 services">
 <div class="icon d-flex justify-content-center align-items-center mb-4">
@@ -172,7 +215,7 @@
 <span class="flaticon-prison"></span>
 </div>
 <div class="media-body">
-<h3 class="heading">Traffic Tickets</h3>
+<h3 class="heading">Indian Visa Services</h3>
 <!-- <p>There are over 500 provincial boards, agencies, and commissions in Ontario. Some of the boards in which we represent our clients are the Parole Board of Canada and the Ontario Social Benefit Tribunal.</p> -->
 </div>
 </div>
@@ -214,7 +257,7 @@
 <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 <div class="block-18 text-center">
 <div class="text">
-<strong class="number" data-number="150">0</strong>
+<strong class="number" data-number="500">0</strong>
 <span>Trusted clients</span>
 </div>
 </div>
@@ -222,24 +265,24 @@
 <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 <div class="block-18 text-center">
 <div class="text">
+<strong class="number" data-number="1000">0</strong>
+<span>Consultations</span>
+</div>
+</div>
+</div>
+<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+<div class="block-18 text-center">
+<div class="text">
+<strong class="number" data-number="2">0</strong>
+<span>Certifications</span>
+</div>
+</div>
+</div>
+<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
+<div class="block-18 text-center">
+<div class="text">
 <strong class="number" data-number="100">0</strong>
-<span>Solved Cases</span>
-</div>
-</div>
-</div>
-<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-<div class="block-18 text-center">
-<div class="text">
-<strong class="number" data-number="10">0</strong>
-<span>Awards Win</span>
-</div>
-</div>
-</div>
-<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-<div class="block-18 text-center">
-<div class="text">
-<strong class="number" data-number="10">0</strong>
-<span>Winning Case</span>
+<span>Favourable decisions</span>
 </div>
 </div>
 </div>
@@ -257,7 +300,7 @@
 <div class="heading-section mb-5 pt-5 pl-md-5">
 <div class="pr-md-5 mr-md-5 text-md-right">
 <span class="subheading">Providing</span>
-<h2 class="mb-4">I Assure you that you will win</h2>
+<h2 class="mb-4">Our mission is to fight for your constitutional rights with Empathy and Dexterity</h2>
 </div>
 </div>
 <div class="pr-md-3 pr-lg-5 pl-md-5 mr-md-5 mb-5">
@@ -284,7 +327,7 @@
 <span class="flaticon-auction"></span>
 </div>
 <div class="media-body pl-md-0 pl-4 pr-4 order-md-first text-md-right">
-<h3 class="heading">Experience Attorneys</h3>
+<h3 class="heading">Profound Experience</h3>
 <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
 </div>
 </div>
@@ -293,9 +336,9 @@
 </div>
 </div>
 </section>
-<section class="ftco-section testimony-section">
+<section class="testimony-section">
 <div class="container">
-<div class="row justify-content-center mb-5 pb-3">
+<div class="row justify-content-center mb-5">
 <div class="col-md-7 heading-section ftco-animate text-center">
 <span class="subheading">Testimony</span>
 <h2 class="mb-4">Client Testimony</h2>
@@ -304,24 +347,37 @@
 </div>
 <div class="row ftco-animate">
 <div class="col-md-12">
-<div class="carousel-testimony owl-carousel">
 <div class="item">
 <div class="testimony-wrap p-4 pb-5 text-center">
-<div class="user-img mb-5">
+<div class="mb-5">
 <span class="quote d-flex align-items-center justify-content-center">
 <i class="icon-quote-left"></i>
 </span>
 </div>
 <div class="text">
-<p class="mb-5 pl-4 line">I had a lot of questions about immigrating to Canada, but Sunil’s experience and knowledge made the process very smooth and answered all my questions. Now I am in Canada. Thank you Sunil Sir.</p><br /><br /><br />
-<p class="name">Urmila Gite</p>
+<p class="mb-5 pl-4 line">Sunil has been very welcoming and receptive to my needs. He understands the process very clearly and thoroughly. Despite my very complex circumstances , he explained all the procedures clearly to me and filled out all the information and submitted it to the government in a professional and timely manner without wasting any time or ambiguity.</p>
+<p class="name">Imran Butt</p>
 <!-- <span class="position">Marketing Manager</span> -->
 </div>
 </div>
 </div>
 <div class="item">
 <div class="testimony-wrap p-4 pb-5 text-center">
-<div class="user-img mb-5">
+<div class="mb-5">
+<span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+</div>
+<div class="text">
+<p class="mb-5 pl-4 line">I happened to get my POA notarized and attested through Ghuge legal services. The experience was so amazing and highly professional. The process was so smooth and well explained to us in advance which helped us getting the process completed in a single visit. I would highly recommend their services.</p>
+<p class="name">Sanju James</p>
+<!-- <span class="position">Web Developer</span> -->
+</div>
+</div>
+</div>
+<div class="item">
+<div class="testimony-wrap p-4 pb-5 text-center">
+<div class="mb-5">
 <span class="quote d-flex align-items-center justify-content-center">
 <i class="icon-quote-left"></i>
 </span>
@@ -336,15 +392,55 @@
 </div>
 <div class="item">
 <div class="testimony-wrap p-4 pb-5 text-center">
-<div class="user-img mb-5">
+<div class="mb-5">
+<span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+</div>
+<div class="text">
+<p class="mb-5 pl-4 line">The best thing about Mr. Ghuge is him being honest. He will tell you what is possible and what is not. I have been to lawyers who were counting hours by dragging issues with law jargon. Easy to manipulate gullible clients with tech terms we don't understand.</p>
+<p class="name">Mohan Reddy Timma Reddy</p>
+</div>
+</div>
+</div>
+<!-- <div class="item">
+<div class="testimony-wrap p-4 pb-5 text-center">
+<div class="user-img mb-5" style="background-image:url(images/person_1.jpg.webp)">
 <span class="quote d-flex align-items-center justify-content-center">
 <i class="icon-quote-left"></i>
 </span>
 </div>
 <div class="text">
 <p class="mb-5 pl-4 line">I happened to get my POA notarized and attested through Ghuge legal services. The experience was so amazing and highly professional. The process was so smooth and well explained to us in advance which helped us getting the process completed in a single visit. I would highly recommend their services.</p>
-<p class="name">Sanju James</p>
+<p class="name">Saju James</p>
+<span class="position">Web Developer</span>
+</div>
+</div>
+</div> -->
+<div class="item">
+<div class="testimony-wrap p-4 pb-5 text-center">
+<div class="mb-5">
+<span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+</div>
+<div class="text">
+<p class="mb-5 pl-4 line">Excellent service. HIGHLY recommend!</p>
+<p class="name">Gina Palmer</p>
 <!-- <span class="position">Web Developer</span> -->
+</div>
+</div>
+</div>
+<div class="item">
+<div class="testimony-wrap p-4 pb-5 text-center">
+<div class="mb-5">
+<span class="quote d-flex align-items-center justify-content-center">
+<i class="icon-quote-left"></i>
+</span>
+</div>
+<div class="text">
+<p class="mb-5 pl-4 line">Ghuge helped us notarize our papers and was very willing and able to accommodate our needs accordingly. Thank you.</p>
+<p class="name">Charles </p>
 </div>
 </div>
 </div>
@@ -353,7 +449,7 @@
 </div>
 </div>
 </section>
-<section class="ftco-section">
+<!-- <section class="ftco-section">
 <div class="container">
 <div class="row justify-content-center mb-5 pb-3">
 <div class="col-md-7 heading-section ftco-animate text-center">
@@ -365,7 +461,7 @@
 <div class="row">
 <div class="col-md-4 ftco-animate">
 <div class="blog-entry">
-<a href="blog-single.html" class="block-20" style="background-image:url(images/image_1.jpg.webp)">
+<a href="blog-single.php" class="block-20" style="background-image:url(images/image_1.jpg.webp)">
 </a>
 <div class="text py-4">
 <div class="meta mb-3">
@@ -381,7 +477,7 @@
 </div>
 <div class="col-md-4 ftco-animate">
 <div class="blog-entry" data-aos-delay="100">
-<a href="blog-single.html" class="block-20" style="background-image:url(images/image_2.jpg.webp)">
+<a href="blog-single.php" class="block-20" style="background-image:url(images/image_2.jpg.webp)">
 </a>
 <div class="text py-4">
 <div class="meta mb-3">
@@ -397,7 +493,7 @@
 </div>
 <div class="col-md-4 ftco-animate">
 <div class="blog-entry" data-aos-delay="200">
-<a href="blog-single.html" class="block-20" style="background-image:url(images/image_3.jpg.webp)">
+<a href="blog-single.php" class="block-20" style="background-image:url(images/image_3.jpg.webp)">
 </a>
 <div class="text py-4">
 <div class="meta mb-3">
@@ -413,30 +509,30 @@
 </div>
 </div>
 </div>
-</section>
+</section> -->
 <section class="ftco-section ftc-no-pb ftc-no-pt bg-light">
 <div class="container">
 <div class="row align-items-md-center">
 <div class="col-md-5 pt-5">
-<form action="#" class="consult-form py-5">
+<form id="#dropdown" method="post" class="consult-form py-5">
 <div class="row">
 <div class="col-md-6">
-<div class="form-group mb-4">
+<div class="form-group mb-4"> 
 <label for="#">Name</label>
-<input type="text" class="form-control" placeholder="Name">
+<input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group mb-4">
 <label for="#">Email Address</label>
-<input type="text" class="form-control" placeholder="Email Address">
+<input type="text" id="email" name="email" class="form-control" placeholder="Email Address" required>
 </div>
 </div>
 <div class="col-md-6">
 <div class="form-group mb-4">
 <label for="#">Date</label>
 <div class="form-field">
-<input type="text" class="form-control checkin_date" placeholder="Date">
+<input type="Date" id="date" name="date" class="form-control" placeholder="yyyy-mm-dd" required>
 </div>
 </div>
 </div>
@@ -446,7 +542,8 @@
 <div class="form-field">
 <div class="select-wrap">
 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
-<select name="" id="" class="form-control">
+<select id="cat" id="cat" name="cat" class="form-control" required>
+<option id="select" value="">SELECT</option>
 <option value="">Family Law</option>
 <option value="">Labor Law</option>
 <option value="">Business Ligitation</option>
@@ -460,12 +557,12 @@
 <div class="col-md-12">
 <div class="form-group mb-4">
 <label for="#">Message</label>
-<textarea name="" id="" cols="30" rows="7" class="form-control form-control-2 d-flex align-items-center" placeholder="Message"></textarea>
+<textarea id="message" name="message" cols="30" rows="7" class="form-control form-control-2 d-flex align-items-center" placeholder="Message"></textarea>
 </div>
 </div>
 <div class="col-md-12">
 <div class="form-group mb-4">
-<input type="submit" value="Make an Appointment" class="btn btn-primary py-3 px-4">
+<input type="submit" name="save" value="Make an Appointment" class="btn btn-primary py-3 px-4">
 </div>
 </div>
 </div>
@@ -493,7 +590,7 @@
 <div class="col-md">
 <div class="ftco-footer-widget mb-4">
 <h2 class="ftco-heading-2">About Me</h2>
-<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+<p>Licensed Paralegal, Notary Public and Regulated Canadian Immigration Consultant</p>
 <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -505,11 +602,11 @@
 <div class="ftco-footer-widget mb-4 ml-md-4">
 <h2 class="ftco-heading-2">Usefull Links</h2>
 <ul class="list-unstyled">
-<li><a href="#">Immigration Services</a></li>
-<li><a href="#">Notary Services</a></li>
-<li><a href="#">Small Claims</a></li>
-<li><a href="#">Landlord & Tenant Board</a></li>
-<li><a href="#">Traffic Tickets</a></li>
+<li><a href="practice.php#link">Immigration Services</a></li>
+<li><a href="practice.php#link">Notary Services</a></li>
+<li><a href="practice.php#link">Small Claims</a></li>
+<li><a href="practice.php#link">Landlord & Tenant Board</a></li>
+<li><a href="practice.php#link">Traffic Tickets</a></li>
 </ul>
 </div>
 </div>
@@ -517,11 +614,11 @@
 <div class="ftco-footer-widget mb-4">
 <h2 class="ftco-heading-2">Quick Links</h2>
 <ul class="list-unstyled">
-<li><a href="#">About Us</a></li>
-<li><a href="#">Practice Areas</a></li>
-<li><a href="#">Appointment</a></li>
-<li><a href="#">Terms &amp; Conditions</a></li>
-<li><a href="#">FAQ</a></li>
+<li><a href="about.php">About Us</a></li>
+<li><a href="practice.php">Practice Areas</a></li>
+<li><a href="attorney.php">Team</a></li>
+<li><a href="blog.php">Blog</a></li>
+<li><a href="contact.php">Contact</a></li>
 </ul>
 </div>
 </div>
@@ -531,8 +628,8 @@
 <div class="block-23 mb-3">
 <ul>
 <li><span class="icon icon-map-marker"></span><span class="text">52 Village Center Pl, Suite 103, Mississauga, Ontario. L4Z 1V9</span></li>
-<li><a href="#"><span class="icon icon-phone"></span><span class="text">+1 289-203-0424</span></a></li>
-<li><a href="#"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="9cf5f2faf3dce5f3e9eef8f3f1fdf5f2b2fff3f1">info@ghugelegal.com</span></span></a></li>
+<li><a href="tel:+1 289-203-0424"><span class="icon icon-phone"></span><span class="text">+1 289-203-0424</span></a></li>
+<li><a href="mailto:info@ghugelegal.com"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="9cf5f2faf3dce5f3e9eef8f3f1fdf5f2b2fff3f1">info@ghugelegal.com</span></span></a></li>
 </ul>
 </div>
 </div>
