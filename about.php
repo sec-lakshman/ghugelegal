@@ -105,7 +105,7 @@ During his career, he has ascertained his effective decision-making capabilities
 <span class="flaticon-cap"></span>
 </div>
 <div>
-<p><strong>Diploma in Paralegal Studies</strong> - When she reached the first hills of the Italic Mountains</p>
+<p><strong>Diploma in Paralegal Studies</strong>
 </div>
 </div>
 <div class="educ d-flex align-items-center">
