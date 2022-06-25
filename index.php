@@ -273,16 +273,8 @@ if (isset($_POST['save1'])) {
 <div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
 <div class="block-18 text-center">
 <div class="text">
-<strong class="number" data-number="2">0</strong>
+<strong class="number" data-number="3">0</strong>
 <span>Certifications</span>
-</div>
-</div>
-</div>
-<div class="col-md d-flex justify-content-center counter-wrap ftco-animate">
-<div class="block-18 text-center">
-<div class="text">
-<strong class="number" data-number="100">0</strong>
-<span>Favourable decisions</span>
 </div>
 </div>
 </div>

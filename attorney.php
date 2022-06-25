@@ -80,7 +80,7 @@
 </div>
 <div class="col-md-6 col-lg-3 ftco-animate">
 <div class="staff">
-<div class="img" style="background-image:url(images/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp.webp)"></div>
+<div class="img" style="background-image:url(images/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp)"></div>
 <div class="text pt-4">
 <h3><span>Incharge: </span>Gopal Chandru</h3>
 <span class="position mb-2">Intern</span>
@@ -112,7 +112,7 @@
 </div>
 <div class="col-md-6 col-lg-3 ftco-animate">
 <div class="staff">
-<div class="img" style="background-image:url(images/xperson_4.jpg.pagespeed.ic.ucbtJ1Htlo.webp)"></div>
+<div class="img" style="background-image:url(images/xperson_4.jpg.pagespeed.ic.ucbtJ1Htlo)"></div>
 <div class="text pt-4">
 <h3><span>Incharge: </span>Smith</h3>
 <span class="position mb-2">Intern</span>
