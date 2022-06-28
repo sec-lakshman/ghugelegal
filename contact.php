@@ -58,7 +58,7 @@ if (isset($_POST['save'])) {
 <li class="nav-item"><a href="about.php" class="nav-link">About Me</a></li>
 <li class="nav-item"><a href="practice.php" class="nav-link">Practice Areas</a></li>
 <li class="nav-item"><a href="attorney.php" class="nav-link">Team</a></li>
-<li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
+<!-- <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li> -->
 <li class="nav-item active"><a href="contact.php" class="nav-link">Contact</a></li>
 </ul>
 </div>
@@ -102,7 +102,7 @@ if (isset($_POST['save'])) {
 </div>
 <div class="col-md-3 d-flex">
 <div class="con align-self-stretch p-3">
-<p><span>Website:</span> <a href="https://www.ghugelegal.com"></span> <a href="#">www.ghugelegal.com</a></p>
+<p><span>Fax:</span> <a href="#"></span> <a href="#">289-327-3161/a></p>
 </div>
 </div>
 </div>
@@ -175,7 +175,7 @@ if (isset($_POST['save'])) {
 <h2 class="ftco-heading-2">Have a Questions?</h2>
 <div class="block-23 mb-3">
 <ul>
-<li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+<li><span class="icon icon-map-marker"></span><span class="text">52 Village Center Pl, Suite 103, Mississauga, Ontario. L4Z 1V9</span></li>
 <li><a href="tel:+1 289-203-0424"><span class="icon icon-phone"></span><span class="text">+1 289-203-0424</span></a></li>
 <li><a href="mailto:info@ghugelegal.com"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="9cf5f2faf3dce5f3e9eef8f3f1fdf5f2b2fff3f1">info@ghugelegal.com</span></span></a></li>
 </ul>

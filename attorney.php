@@ -32,7 +32,7 @@
 <li class="nav-item"><a href="about.php" class="nav-link">About Me</a></li>
 <li class="nav-item"><a href="practice.php" class="nav-link">Practice Areas</a></li>
 <li class="nav-item active"><a href="attorney.php" class="nav-link">Team</a></li>
-<li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
+<!-- <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li> -->
 <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 </ul>
 </div>
