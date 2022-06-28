@@ -72,7 +72,7 @@ if (isset($_POST['save1'])) {
 <li class="nav-item"><a href="about.php" class="nav-link">About Me</a></li>
 <li class="nav-item"><a href="practice.php" class="nav-link">Practice Areas</a></li>
 <li class="nav-item"><a href="attorney.php" class="nav-link">Team</a></li>
-<li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
+<!-- <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li> -->
 <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
 </ul>
 </div>
@@ -328,24 +328,23 @@ if (isset($_POST['save1'])) {
 </div>
 </div>
 </section>
-<section class="testimony-section">
+<section class="ftco-section testimony-section">
 <div class="container">
-<div class="row justify-content-center mb-5">
+<div class="row justify-content-center mb-5 pb-3">
 <div class="col-md-7 heading-section ftco-animate text-center">
 <span class="subheading">Testimony</span>
-<h2 class="mb-4">Client Testimony</h2>
+<h2 class="mb-4">My satisfied customer says</h2>
 <!-- <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p> -->
 </div>
 </div>
 <div class="row ftco-animate">
 <div class="col-md-12">
+<div class="carousel-testimony owl-carousel">
 <div class="item">
 <div class="testimony-wrap p-4 pb-5 text-center">
-<div class="mb-5">
 <span class="quote d-flex align-items-center justify-content-center">
 <i class="icon-quote-left"></i>
 </span>
-</div>
 <div class="text">
 <p class="mb-5 pl-4 line">Sunil has been very welcoming and receptive to my needs. He understands the process very clearly and thoroughly. Despite my very complex circumstances , he explained all the procedures clearly to me and filled out all the information and submitted it to the government in a professional and timely manner without wasting any time or ambiguity.</p>
 <p class="name">Imran Butt</p>
@@ -355,25 +354,9 @@ if (isset($_POST['save1'])) {
 </div>
 <div class="item">
 <div class="testimony-wrap p-4 pb-5 text-center">
-<div class="mb-5">
 <span class="quote d-flex align-items-center justify-content-center">
 <i class="icon-quote-left"></i>
 </span>
-</div>
-<div class="text">
-<p class="mb-5 pl-4 line">I happened to get my POA notarized and attested through Ghuge legal services. The experience was so amazing and highly professional. The process was so smooth and well explained to us in advance which helped us getting the process completed in a single visit. I would highly recommend their services.</p>
-<p class="name">Sanju James</p>
-<!-- <span class="position">Web Developer</span> -->
-</div>
-</div>
-</div>
-<div class="item">
-<div class="testimony-wrap p-4 pb-5 text-center">
-<div class="mb-5">
-<span class="quote d-flex align-items-center justify-content-center">
-<i class="icon-quote-left"></i>
-</span>
-</div>
 <div class="text">
 <p class="mb-5 pl-4 line">I would recommend Ghuge Legal Services for all your landlord tenancy issues. Mr. Ghuge is very knowledgeable and handles the cases in a very professional manner, and gets positive results</p>
 <br /><br /><br />
@@ -384,11 +367,9 @@ if (isset($_POST['save1'])) {
 </div>
 <div class="item">
 <div class="testimony-wrap p-4 pb-5 text-center">
-<div class="mb-5">
 <span class="quote d-flex align-items-center justify-content-center">
 <i class="icon-quote-left"></i>
 </span>
-</div>
 <div class="text">
 <p class="mb-5 pl-4 line">The best thing about Mr. Ghuge is him being honest. He will tell you what is possible and what is not. I have been to lawyers who were counting hours by dragging issues with law jargon. Easy to manipulate gullible clients with tech terms we don't understand.</p>
 <p class="name">Mohan Reddy Timma Reddy</p>
@@ -411,11 +392,9 @@ if (isset($_POST['save1'])) {
 </div> -->
 <div class="item">
 <div class="testimony-wrap p-4 pb-5 text-center">
-<div class="mb-5">
 <span class="quote d-flex align-items-center justify-content-center">
 <i class="icon-quote-left"></i>
 </span>
-</div>
 <div class="text">
 <p class="mb-5 pl-4 line">Excellent service. HIGHLY recommend!</p>
 <p class="name">Gina Palmer</p>
@@ -425,11 +404,9 @@ if (isset($_POST['save1'])) {
 </div>
 <div class="item">
 <div class="testimony-wrap p-4 pb-5 text-center">
-<div class="mb-5">
 <span class="quote d-flex align-items-center justify-content-center">
 <i class="icon-quote-left"></i>
 </span>
-</div>
 <div class="text">
 <p class="mb-5 pl-4 line">Ghuge helped us notarize our papers and was very willing and able to accommodate our needs accordingly. Thank you.</p>
 <p class="name">Charles </p>
@@ -536,7 +513,7 @@ if (isset($_POST['save1'])) {
 <div class="icon"><span class="ion-ios-arrow-down"></span></div>
 <select id="cat" id="cat" name="cat" class="form-control" required>
 <option id="select" value="">SELECT</option>
-<option value="">Immigration Services</option>
+z<option value="">Immigration Services</option>
 <option value="">Notary Services</option>
 <option value="">Landlord & Tenant Board</option>
 <option value="">Indian Visa Services</option>
