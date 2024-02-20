@@ -1629,18 +1629,18 @@ h1, h2, h3, h4,
         padding-left: 15px; } }
     @media (min-width: 768px) {
       .ftco-navbar-light .navbar-brand {
-        color: #fff; } }
+        color: #5b5a5a; } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding: 10px 0; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 12px;
+    font-size: 14px;
     padding-top: .8rem;
     padding-bottom: .8rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #fff;
-    font-weight: 400;
+    color: #5b5a5a;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
     opacity: 1 !important; }
@@ -1649,7 +1649,7 @@ h1, h2, h3, h4,
         padding-top: .6rem;
         padding-bottom: .6rem; } }
     .ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
-      color: #b8b0b0; }
+      color: #bd1010; }
   .ftco-navbar-light .navbar-nav > .nav-item .dropdown-menu {
     border: none;
     background: #fff;
@@ -1736,14 +1736,14 @@ h1, h2, h3, h4,
   font-size: 20px;
   position: relative; }
   .navbar-brand span {
-    color: rgba(255, 255, 255, 0.4); }
+    color: #5b5a5a; }
 
 .hero-wrap .forth {
   width: 40%;
   background: #d15555; }
   .hero-wrap .forth .text {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 0;
     right: 0;
     max-width: 1140px;
@@ -1757,13 +1757,13 @@ h1, h2, h3, h4,
     .hero-wrap .forth .text .subheading {
       font-size: 24px;
       font-weight: 500;
-      color: rgba(255, 255, 255, 0.5); }
+      color: #5b5a5a; }
     .hero-wrap .forth .text h1 {
       font-weight: 700;
       font-size: 60px;
-      color: #fff; }
+      color: #5b5a5a; }
     .hero-wrap .forth .text h2 {
-      color: rgba(255, 255, 255, 0.8);
+      color: #5b5a5a;
       font-size: 24px; }
     .hero-wrap .forth .text .btn-custom {
       position: relative;
@@ -1793,8 +1793,8 @@ h1, h2, h3, h4,
         background: rgba(255, 255, 255, 0.8); }
 
 .hero-wrap .third {
-  width: 60%;
-  position: relative; }
+  width: 100%;
+  position: absolute; }
   .hero-wrap .third .icon {
     position: absolute;
     top: 65%;
