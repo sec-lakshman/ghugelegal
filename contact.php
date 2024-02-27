@@ -94,7 +94,7 @@
          </div>
          <div class="col-md-3 d-flex">
            <div class="con align-self-stretch p-3">
-             <p><span>Phone:</span><a href="tel:+1 289-203-0424">+1 289-203-0424</a></p>
+             <p><span>Phone:</span><a href="tel:+1 416-816-9249">+1 416-816-9249</a></p>
            </div>
          </div>
          <div class="col-md-3 d-flex">
@@ -175,7 +175,7 @@
              <div class="block-23 mb-3">
                <ul>
                  <li><span class="icon icon-map-marker"></span><span class="text">52 Village Center Pl, Suite 103, Mississauga, Ontario. L4Z 1V9</span></li>
-                 <li><a href="tel:+1 289-203-0424"><span class="icon icon-phone"></span><span class="text">+1 289-203-0424</span></a></li>
+                 <li><a href="tel:+1 416-816-9249"><span class="icon icon-phone"></span><span class="text">+1 416-816-9249</span></a></li>
                  <li><a href="mailto:info@ghugelegal.com"><span class="icon icon-envelope"></span><span class="text"><span class="__cf_email__" data-cfemail="9cf5f2faf3dce5f3e9eef8f3f1fdf5f2b2fff3f1">info@ghugelegal.com</span></span></a></li>
                </ul>
              </div>
