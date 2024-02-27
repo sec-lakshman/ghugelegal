@@ -104,7 +104,7 @@
          </div>
          <div class="col-md-3 d-flex">
            <div class="con align-self-stretch p-3">
-             <p><span>Fax:</span> <a href="#"></span> <a href="#">289-327-3161/a></p>
+             <p><span>Linkedin:</span> <a href="#"></span> <a href="https://www.linkedin.com/in/sunil-ghuge/"><a></p>
            </div>
          </div>
        </div>
