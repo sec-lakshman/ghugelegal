@@ -311,14 +311,11 @@
          </div>
      </section>
 
-     <section class="ftco-section ftc-no-pb ftc-no-pt bg-light">
-         <div class="container">
-            <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/ghugelegal/30min" style="min-width:320px;height:700px;"></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            <!-- Calendly inline widget end -->
-         </div>
-     </section>
+    <!-- Calendly link widget begin -->
+    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal/30min'});return false;">Schedule time with me</a>
+    <!-- Calendly link widget end -->
 
      <footer class="ftco-footer ftco-bg-dark ftco-section">
          <div class="container">
