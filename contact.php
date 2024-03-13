@@ -1,30 +1,5 @@
- <?php
-  include 'connect.php';
-  if (isset($_POST['save'])) {
-
-
-
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $message = $_POST['message'];
-
-    // printf("You have selected :" .$name);
-    // printf("You have selected :" .$email);
-    // printf("You have selected :" .$cat);
-    // printf("You have selected :" .$date);
-    // printf("You have selected :" .$message);
-
-
-
-
-    $sql = "INSERT INTO Appointment (name,email,message,type) VALUES ('$name','$email','$message','feedback')";
-    // printf($sql);
-    if (mysqli_query($db, $sql)) {
-      header("Refresh:1; url=contact.php");
-      // echo "uploaded successfully";
-    }
-  }
-  ?>
+<?php
+?>
  <!DOCTYPE html>
  <html lang="en">
 

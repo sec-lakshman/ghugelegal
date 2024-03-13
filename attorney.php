@@ -1,12 +1,13 @@
+<?php
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <title></title>
+  <title>Ghuge Legal Services</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="css/A.open-iconic-bootstrap.min.css+animate.css+owl.carousel.min.css+owl.theme.default.min.css+magnific-popup.css+aos.css+ionicons.min.css+bootstrap-datepicker.css+jquery.timepicker.css+flaticon.css+icomoon.css+style.css,Mcc.QEp-L0t-7x.css.pagespeed.cf.djr-S5i17M.css" /> -->
   <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
   <link rel="stylesheet" href="css/animate.css" />
   <link rel="stylesheet" href="css/owl.carousel.min.css" />
@@ -33,7 +34,6 @@
           <li class="nav-item"><a href="about.php" class="nav-link">About Me</a></li>
           <li class="nav-item"><a href="practice.php" class="nav-link">Practice Areas</a></li>
           <li class="nav-item active"><a href="attorney.php" class="nav-link">Team</a></li>
-          <!-- <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li> -->
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
         </ul>
       </div>
