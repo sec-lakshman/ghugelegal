@@ -98,43 +98,11 @@
         </div>
         <div class="col-md-6 col-lg-3 ftco-animate">
           <div class="staff">
-            <div class="img" style="background-image:url(images/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp)"></div>
-            <div class="text pt-4">
-              <h3><span></span>Viral Kaushik Modi</h3>
-              <span class="position mb-2">Immigration Assitant</span>
-              <p></p>
-              <ul class="ftco-social d-flex">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 ftco-animate">
-          <div class="staff">
             <div class="img" style="background-image:url(images/xperson_3.jpg.pagespeed.ic.Cln-jaM1jK.webp)"></div>
             <div class="text pt-4">
               <h3><span>Incharge: </span>Lakshman Pawar</h3>
               <span class="position mb-2">Information Security Consultant</span>
               <p>Soul interest and passion to improve privicy and confidentiality of data</p>
-              <ul class="ftco-social d-flex">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3 ftco-animate">
-          <div class="staff">
-            <div class="img" style="background-image:url(images/xperson_4.jpg.pagespeed.ic.ucbtJ1Htlo)"></div>
-            <div class="text pt-4">
-              <h3><span></span>Vishwas Sanap</h3>
-              <span class="position mb-2">Marketing Incharge</span>
-              <p></p>
               <ul class="ftco-social d-flex">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
