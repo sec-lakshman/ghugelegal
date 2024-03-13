@@ -59,7 +59,7 @@
         <div class="col-md-7 heading-section ftco-animate text-center">
           <span class="subheading">Team</span>
           <h2 class="mb-4">Meet Our Team</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in</p>
+          <p>Our team comprises of legal, security and marketing experts</p>
         </div>
       </div>
       <div class="row">
@@ -83,8 +83,25 @@
           <div class="staff">
             <div class="img" style="background-image:url(images/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp)"></div>
             <div class="text pt-4">
-              <h3><span>Incharge: </span>Gopal Chandru</h3>
-              <span class="position mb-2">Intern</span>
+              <h3><span></span>Razi Ahmad</h3>
+              <span class="position mb-2">Senior Counsel</span>
+              <p>Mr. Razi Ahmad is a licensed lawyer and notary public with over 14 years of practice experience.
+                He has profound experience in Real Estate Law, Family Law, Immigration Law, Commercial Law, Corporate Law, Wills, Estate Planning, Probation of Wills, Power of Attorney, Bail Hearings, Pardons, Superior Court Appeals, Federal Court Appeals and Judicial Reviews. </p>
+              <ul class="ftco-social d-flex">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 ftco-animate">
+          <div class="staff">
+            <div class="img" style="background-image:url(images/xperson_2.jpg.pagespeed.ic.Xrdu_nPZRp)"></div>
+            <div class="text pt-4">
+              <h3><span></span>Viral Kaushik Modi</h3>
+              <span class="position mb-2">Immigration Assitant</span>
               <p></p>
               <ul class="ftco-social d-flex">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
@@ -115,8 +132,8 @@
           <div class="staff">
             <div class="img" style="background-image:url(images/xperson_4.jpg.pagespeed.ic.ucbtJ1Htlo)"></div>
             <div class="text pt-4">
-              <h3><span>Incharge: </span>Smith</h3>
-              <span class="position mb-2">Intern</span>
+              <h3><span></span>Vishwas Sanap</h3>
+              <span class="position mb-2">Marketing Incharge</span>
               <p></p>
               <ul class="ftco-social d-flex">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
