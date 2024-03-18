@@ -43,7 +43,7 @@
    </nav>
 
    <section class="home-slider js-fullheight owl-carousel">
-     <div class="slider-item js-fullheight" style="background-image:url(images/xbg_5.jpg.pagespeed.ic.BmCBt1rLBB.webp)">
+     <div class="slider-item js-fullheight" style="background-image:url(images/xbg_5.webp)">
        <div class="overlay"></div>
        <div class="container">
          <div class="row slider-text justify-content-center align-items-center">
@@ -83,27 +83,14 @@
            </div>
          </div>
        </div>
-       <div class="row block-9">
-         <div class="col-md-6 pr-md-5">
-           <form action="#dropdown1" method="post">
-             <div class="form-group">
-               <input type="text" id="name" name="name" class="form-control" placeholder="Your Name">
-             </div>
-             <div class="form-group">
-               <input type="text" id="email" name="email" class="form-control" placeholder="Your Email">
-             </div>
-             <div class="form-group">
-               <textarea id="message" name="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-             </div>
-             <div class="form-group">
-               <input type="submit" name="save" value="Send Message" class="btn btn-primary py-3 px-5">
-             </div>
-           </form>
+       <section class="ftco-section ftc-no-pb ftc-no-pt bg-light">
+         <div class="container">
+            <!-- Calendly inline widget begin -->
+            <div class="calendly-inline-widget" data-url="https://calendly.com/ghugelegal/30min" style="min-width:320px;height:700px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+            <!-- Calendly inline widget end -->
          </div>
-         <div class="col-md-6 d-flex">
-           <div id="map"></div>
-         </div>
-       </div>
+     </section>
      </div>
    </section>
    <footer class="ftco-footer ftco-bg-dark ftco-section">
