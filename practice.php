@@ -43,7 +43,7 @@
   </nav>
 
   <section class="home-slider js-fullheight owl-carousel">
-    <div class="slider-item js-fullheight" style="background-image:url(images/xbg_5.jpg.pagespeed.ic.BmCBt1rLBB.webp)">
+    <div class="slider-item js-fullheight" style="background-image:url(images/xbg_5.webp)">
       <div class="overlay"></div>
       <div class="container">
         <div class="row slider-text justify-content-center align-items-center">
