@@ -1626,19 +1626,19 @@ button.bg-dark:focus {
 body {
   font-family: "Poppins", Arial, sans-serif;
   background: #fff;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.8;
   font-weight: 300;
-  color: #666666; }
+  color: #000000; }
 
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #b8b0b0; }
+  color: #0d0d0d; }
   a:hover, a:focus {
     text-decoration: none;
-    color: #b8b0b0;
+    color: #3b3b3b;
     outline: none !important; }
 
 h1, h2, h3, h4,
@@ -1667,17 +1667,17 @@ h1, h2, h3, h4,
         padding-left: 15px; } }
     @media (min-width: 768px) {
       .ftco-navbar-light .navbar-brand {
-        color: #5b5a5a; } }
+        color: #000000; } }
   @media (max-width: 991.98px) {
     .ftco-navbar-light .navbar-nav {
       padding: 10px 0; } }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
-    font-size: 14px;
+    font-size: 16px;
     padding-top: .8rem;
     padding-bottom: .8rem;
     padding-left: 20px;
     padding-right: 20px;
-    color: #5b5a5a;
+    color: #000000;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -1771,10 +1771,10 @@ h1, h2, h3, h4,
 
 .navbar-brand {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   position: relative; }
   .navbar-brand span {
-    color: #5b5a5a; }
+    color: #bd1010; }
 
 .hero-wrap .forth {
   width: 40%;
@@ -1795,13 +1795,13 @@ h1, h2, h3, h4,
     .hero-wrap .forth .text .subheading {
       font-size: 24px;
       font-weight: 500;
-      color: #5b5a5a; }
+      color: #000000; }
     .hero-wrap .forth .text h1 {
       font-weight: 700;
       font-size: 60px;
-      color: #5b5a5a; }
+      color: #000000; }
     .hero-wrap .forth .text h2 {
-      color: #5b5a5a;
+      color: #000000;
       font-size: 24px; }
     .hero-wrap .forth .text .btn-custom {
       position: relative;
@@ -2231,7 +2231,7 @@ h1, h2, h3, h4,
       letter-spacing: 1px;
       font-size: 18px; }
   .ftco-services .services:hover .icon {
-    background: #b8b0b0; }
+    background: #3b3b3b; }
     .ftco-services .services:hover .icon span {
       color: #fff; }
 

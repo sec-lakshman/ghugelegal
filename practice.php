@@ -59,56 +59,68 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="practice">
-            <a href="#" class="img" style="background-image:url(images/xpractice-1.jpg.pagespeed.ic.eIVTGR4XD3.webp)"></a>
-            <div class="info">
-              <h3><a href="#">Immigration Services</a></h3>
-              <p>We are a one-stop-shop for all your immigration services need. We provide help in PR, PNP, Visitor Visa and Parents Visa and many more.</p>
+          <div id="immigration-services">
+            <div class="practice">
+              <a href="#" class="img" style="background-image:url(images/xpractice-1.jpg.pagespeed.ic.eIVTGR4XD3.webp)"></a>
+              <div class="info">
+                <h3><a href="#">Immigration Services</a></h3>
+                <p>We are a one-stop-shop for all your immigration services need. We provide help in PR, PNP, Visitor Visa and Parents Visa and many more.</p>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="practice">
-            <a href="#" class="img" style="background-image:url(images/xpractice-2.jpg.pagespeed.ic.zQqFObmL0_.webp)"></a>
-            <div class="info">
-              <h3><a href="#">Notary Services and Commission of Oath</a></h3>
-              <p>Our promotional services are priced at only $20 for the first, second, and third document and $10.00 for every subsequent document per client.</p>
+          <div id="notary-services">
+            <div class="practice">
+              <a href="#" class="img" style="background-image:url(images/xpractice-2.jpg.pagespeed.ic.zQqFObmL0_.webp)"></a>
+              <div class="info">
+                <h3><a href="#">Notary Services and Commission of Oath</a></h3>
+                <p>Our promotional services are priced at only $20 for the first, second, and third document and $10.00 for every subsequent document per client.</p>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="practice">
-            <a href="#" class="img" style="background-image:url(images/xpractice-3.jpg.pagespeed.ic.GYOtnpQL8P.webp)"></a>
-            <div class="info">
-              <h3><a href="#">Indian Visa Services</a></h3>
-              <p>We are a one-stop-shop for all your indian visa services you need</p>
+          <div id="indan-visa-services">
+            <div class="practice">
+              <a href="#" class="img" style="background-image:url(images/xpractice-3.jpg.pagespeed.ic.GYOtnpQL8P.webp)"></a>
+              <div class="info">
+                <h3><a href="#">Indian Visa Services</a></h3>
+                <p>We are a one-stop-shop for all your indian visa services you need</p>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="practice">
-            <a href="#" class="img" style="background-image:url(images/xpractice-4.jpg.pagespeed.ic.iKjnHUOwzx.webp)"></a>
-            <div class="info">
-              <h3><a href="#">Landlord and Tenant Board</a></h3>
-              <p>We provide legal representation and advice in disputes between landlords and tenants. We serve the communities in Toronto, Peel, Halton, Kitchener, and Waterloo regions.</p>
+          <div id="landlord-tenant-services">
+            <div class="practice">
+              <a href="#" class="img" style="background-image:url(images/xpractice-4.jpg.pagespeed.ic.iKjnHUOwzx.webp)"></a>
+              <div class="info">
+                <h3><a href="#">Landlord and Tenant Board</a></h3>
+                <p>We provide legal representation and advice in disputes between landlords and tenants. We serve the communities in Toronto, Peel, Halton, Kitchener, and Waterloo regions.</p>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="practice">
-            <a href="#" class="img" style="background-image:url(images/xpractice-5.jpg.pagespeed.ic.5oMJKH3JkE.webp)"></a>
-            <div class="info">
-              <h3><a href="#">Small Claims</a></h3>
-              <p>It deals with civil disputes of a monetary value of up to $35,000. We have the knowledge of issues and facts that are required to be raised during the course of settlement or litigation and develop a powerful strategy to guard your interests.</p>
+          <div id="small-claims-services">
+            <div class="practice">
+              <a href="#" class="img" style="background-image:url(images/xpractice-5.jpg.pagespeed.ic.5oMJKH3JkE.webp)"></a>
+              <div class="info">
+                <h3><a href="#">Small Claims</a></h3>
+                <p>It deals with civil disputes of a monetary value of up to $35,000. We have the knowledge of issues and facts that are required to be raised during the course of settlement or litigation and develop a powerful strategy to guard your interests.</p>
+              </div>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="practice">
-            <a href="#" class="img" style="background-image:url(images/xpractice-6.jpg.pagespeed.ic.xUB3pSMKuD.webp)"></a>
-            <div class="info">
-              <h3><a href="#">Administrative Law</a></h3>
-              <p>There are over 500 provincial boards, agencies, and commissions in Ontario. Some of the boards in which we represent our clients are the Parole Board of Canada and the Ontario Social Benefit Tribunal.</p>
+          <div id="admin-law-services">
+            <div class="practice">
+              <a href="#" class="img" style="background-image:url(images/xpractice-6.jpg.pagespeed.ic.xUB3pSMKuD.webp)"></a>
+              <div class="info">
+                <h3><a href="#">Administrative Law</a></h3>
+                <p>There are over 500 provincial boards, agencies, and commissions in Ontario. Some of the boards in which we represent our clients are the Parole Board of Canada and the Ontario Social Benefit Tribunal.</p>
+              </div>
             </div>
           </div>
         </div>
