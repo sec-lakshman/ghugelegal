@@ -47,14 +47,12 @@
 
                 <span class="subheading">Welcome to,</span>
                 <h1>Ghuge Immigration and <br/>Legal Services</h1>
-                <h2>*Our Notary Charges for the First Page is $19.99 and <br /> rest at $9.99 per page for Certified True
+                <h2>*Our Notary Charges for the First Page is $19.99 and <br/> rest at $9.99 per page for Certified True
                     Copies only</h2>
-
                 <a style="overflow:hidden" href=""
                     onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal/30min'});return false;">
-
             </div>
-            <div class="text" style="margin-top:330px">
+            <div class="text" style="margin-top:380px">
                 <button class="button-63" role="button">Book an Appointment</button></a>
                 <img style="padding-top:40px" src="images/notary.png" />
             </div>
@@ -78,7 +76,7 @@
                             <span class="flaticon-family-room"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Notaries</h3>
+                            <h3 class="heading"><a href="practice.php#notary-services">Notary Services</a></h3>
                         </div>
                     </div>
                 </div>
@@ -88,7 +86,7 @@
                             <span class="flaticon-bar-chart"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Small Claims Court</h3>
+                            <h3 class="heading"><a href="practice.php#small-claims-services">Small Claims</h3></a>
                         </div>
                     </div>
                 </div>
@@ -98,7 +96,7 @@
                             <span class="flaticon-medicine"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Employment Law</h3>
+                            <h3 class="heading"><a href="practice.php#admin-law-services">Employment Law</h3></a>
                         </div>
                     </div>
                 </div>
@@ -108,7 +106,7 @@
                             <span class="flaticon-prison"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Commission of Oaths</h3>
+                            <h3 class="heading"><a href="practice.php#notary-services">Commission of Oaths</h3></a>
                         </div>
                     </div>
                 </div>
@@ -118,7 +116,7 @@
                             <span class="flaticon-prison"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Landlord & Tenant Disputes</h3>
+                            <h3 class="heading"><a href="practice.php#landlord-tenant-services">Landlord & Tenant Disputes</h3></a>
                         </div>
                     </div>
                 </div>
@@ -128,7 +126,7 @@
                             <span class="flaticon-prison"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Indian Visa Services</h3>
+                            <h3 class="heading"><a href="practice.php#indian-visa-services">Indian Visa Services</h3></a>
                         </div>
                     </div>
                 </div>
@@ -138,7 +136,7 @@
                             <span class="flaticon-prison"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Immigration Services</h3>
+                            <h3 class="heading"><a href="practice.php#immigration-services">Immigration Services</h3></a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +146,7 @@
                             <span class="flaticon-prison"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading">Provincial Offences</h3>
+                            <h3 class="heading"><a href="practice.php#admin-law-services">Provincial Offences</h3></a>
                         </div>
                     </div>
                 </div>
