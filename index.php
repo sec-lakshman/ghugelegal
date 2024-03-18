@@ -49,10 +49,14 @@
                 <h1>Ghuge Immigration and <br/>Legal Services</h1>
                 <h2>*Our Notary Charges for the First Page is $19.99 and <br/> rest at $9.99 per page for Certified True
                     Copies only</h2>
+                <br/>
+                <br/>
+                <h2>B2B Service - We offer immigration law services in <br/> partnership with lawyers and immigration
+                    consultants <br/> across Canada.</h2>
                 <a style="overflow:hidden" href=""
                     onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal/30min'});return false;">
             </div>
-            <div class="text" style="margin-top:380px">
+            <div class="text" style="margin-top:420px">
                 <button class="button-63" role="button">Book an Appointment</button></a>
                 <img style="padding-top:40px" src="images/notary.png" />
             </div>
@@ -66,7 +70,7 @@
         <div class="container" id="link">
             <div class="heading-section">
                 <div class="row text-md-left" id="link">
-                    <h2 class="mb-4">Our Legal Practice Areas</h2>
+                    <h2 class="mb-4">Our Domain of Expertise</h2>
                 </div>
             </div><br/><br/>
             <div class="row">
