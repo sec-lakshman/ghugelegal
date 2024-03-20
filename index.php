@@ -48,16 +48,16 @@
             <div class="text col-md-6 col-lg-3" style="padding-top: 25%;">
                 <span class="subheading">Welcome to,</span>
                 <h1>Ghuge Immigration and <p>Legal Services</p></h1>
-                <p style="color:black;font-weight:900"><b>*Our Notary Charges for the First Page is $19.99 and <br />
+                <p style="color:black;font-weight:200"><b>*Our Notary Charges for the First Page is $19.99 and <br />
                         rest at $9.99 per page for Certified True
                         Copies only</b></p>
-                <p style="color:black;font-weight:900">B2B Service - We offer immigration law services in <br />
+                <p style="color:black;font-weight:200"><b>B2B Service - We offer immigration law services in <br />
                     partnership with lawyers and immigration
-                    consultants <br /> across Canada.</p>
+                    consultants <br /> across Canada.</b></p>
                     <!-- onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal/30min'});return false;"> -->
                 <!-- <div class="text" style="padding-bottom:0%;"> -->
-                    <button class="button-63" role="button">Book an Appointment</button>
-                    <img style="width:110px;height:110px" src="images/notary.png" />
+                    <button class="button-63" role="button">Book an Appointment</button>  <br />
+                    <img style="width:150px;height:150px" src="images/notary.png" />
                 <!-- </div> -->
             </div>
         </div>
