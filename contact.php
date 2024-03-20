@@ -20,6 +20,7 @@
    <link rel="stylesheet" href="css/flaticon.css" />
    <link rel="stylesheet" href="css/icomoon.css" />
    <link rel="stylesheet" href="css/style111.css" />
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
  </head>
 
  <body>
@@ -35,15 +36,14 @@
            <li class="nav-item"><a href="about.php" class="nav-link">About Me</a></li>
            <li class="nav-item"><a href="practice.php" class="nav-link">Practice Areas</a></li>
            <li class="nav-item"><a href="attorney.php" class="nav-link">Team</a></li>
-           <!-- <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>-->
            <li class="nav-item active"><a href="contact.php" class="nav-link">Contact</a></li>
          </ul>
        </div>
      </div>
    </nav>
 
-   <section class="home-slider js-fullheight owl-carousel">
-     <div class="slider-item js-fullheight" style="background-image:url(images/xbg_5.webp)">
+   <section>
+     <!-- <div class="slider-item js-fullheight" style="background-image:url(images/xbg_5.webp)">
        <div class="overlay"></div>
        <div class="container">
          <div class="row slider-text justify-content-center align-items-center">
@@ -53,7 +53,13 @@
            </div>
          </div>
        </div>
-     </div>
+     </div> -->
+     <div>
+    <img src="images/xbg_5.webp" style="width:100%; max-height:500px">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-62">
+    <h4 style= "color:white;padding-bottom:120% !important"><b>CONTACT ME</b></h4> 
+    </div>
+  </div>
    </section>
    <section class="ftco-section contact-section">
      <div class="container">
