@@ -45,7 +45,7 @@
     <div>
     <img src="images/xbg_3.jpg.pagespeed.ic.eenNv0RoIf.webp" style="width:100%; max-height:500px">
     <div class="w3-display-middle w3-container w3-text-white w3-padding-62">
-    <h4 style= "color:white;padding-bottom:120% !important"><b>MEET OUR TEAM</b></h4> 
+    <h4 style= "color:#bd1010;padding-bottom:120% !important"><b>MEET OUR TEAM</b></h4> 
     </div>
   </div>
   </section>
