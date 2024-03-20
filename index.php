@@ -54,8 +54,8 @@
                 <p style="color:black;font-weight:200"><b>B2B Service - We offer immigration law services in <br />
                     partnership with lawyers and immigration
                     consultants <br /> across Canada.</b></p>
-                    <!-- onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal/30min'});return false;"> -->
-                <!-- <div class="text" style="padding-bottom:0%;"> -->
+                    <a style="overflow:hidden" href=""
+                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal/30min'});return false;">
                     <button class="button-63" role="button">Book an Appointment</button>  <br />
                     <img style="width:150px;height:150px" src="images/notary.png" />
                 <!-- </div> -->
