@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="css/flaticon.css" />
   <link rel="stylesheet" href="css/icomoon.css" />
   <link rel="stylesheet" href="css/style111.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
@@ -42,18 +43,13 @@
     </div>
   </nav>
 
-  <section class="home-slider js-fullheight owl-carousel">
-    <div class="slider-item js-fullheight" style="background-image:url(images/xbg_5.webp)">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row slider-text justify-content-center align-items-center">
-          <div class="col-md-7 col-sm-12 text-center ftco-animate">
-            <h1 class="mb-3 mt-5 bread">Our Blog</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Blog</span></p>
-          </div>
-        </div>
-      </div>
+  <section>
+    <div>
+    <img src="images/xbg_5.webp" style="width:100%; max-height:500px">
+    <div class="w3-display-middle w3-container w3-text-white w3-padding-62">
+    <h4 style= "color:white;padding-bottom:120% !important"><b>OUR BLOG</b></h4> 
     </div>
+  </div>
   </section>
   <section class="ftco-section">
     <div class="container">

@@ -43,27 +43,24 @@
 
     <section class="hero-wrap d-flex js-fullheight">
         <div class="forth js-fullheight d-flex align-items-center">
-            <div class="text">
-
+            <span class="third about-img js-fullheight"
+                style="background-image:url(images/img11.jpg);width:100%;"></span>
+            <div class="text col-md-6 col-lg-3" style="padding-top: 25%;">
                 <span class="subheading">Welcome to,</span>
-                <h1>Ghuge Immigration and <br/>Legal Services</h1>
-                <h2>*Our Notary Charges for the First Page is $19.99 and <br/> rest at $9.99 per page for Certified True
-                    Copies only</h2>
-                <br/>
-                <br/>
-                <h2>B2B Service - We offer immigration law services in <br/> partnership with lawyers and immigration
-                    consultants <br/> across Canada.</h2>
-                <a style="overflow:hidden" href=""
-                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal/30min'});return false;">
-            </div>
-            <div class="text" style="margin-top:420px">
-                <button class="button-63" role="button">Book an Appointment</button></a>
-                <img style="padding-top:40px" src="images/notary.png" />
+                <h1>Ghuge Immigration and <p>Legal Services</p></h1>
+                <p style="color:black;font-weight:900"><b>*Our Notary Charges for the First Page is $19.99 and <br />
+                        rest at $9.99 per page for Certified True
+                        Copies only</b></p>
+                <p style="color:black;font-weight:900">B2B Service - We offer immigration law services in <br />
+                    partnership with lawyers and immigration
+                    consultants <br /> across Canada.</p>
+                    <!-- onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal/30min'});return false;"> -->
+                <!-- <div class="text" style="padding-bottom:0%;"> -->
+                    <button class="button-63" role="button">Book an Appointment</button>
+                    <img style="width:110px;height:110px" src="images/notary.png" />
+                <!-- </div> -->
             </div>
         </div>
-        <div class="third about-img js-fullheight" style="background-image:url(images/img11.jpg)">
-        </div>
-
     </section>
 
     <section class="ftco-section ftco-services">
@@ -72,7 +69,7 @@
                 <div class="row text-md-left" id="link">
                     <h2 class="mb-4">Our Domain of Expertise</h2>
                 </div>
-            </div><br/><br/>
+            </div><br /><br />
             <div class="row">
                 <div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
                     <div class="media block-6 services">
@@ -120,7 +117,8 @@
                             <span class="flaticon-prison"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading"><a href="practice.php#landlord-tenant-services">Landlord & Tenant Disputes</h3></a>
+                            <h3 class="heading"><a href="practice.php#landlord-tenant-services">Landlord & Tenant
+                                    Disputes</h3></a>
                         </div>
                     </div>
                 </div>
@@ -130,7 +128,8 @@
                             <span class="flaticon-prison"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading"><a href="practice.php#indian-visa-services">Indian Visa Services</h3></a>
+                            <h3 class="heading"><a href="practice.php#indian-visa-services">Indian Visa Services</h3>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -140,7 +139,8 @@
                             <span class="flaticon-prison"></span>
                         </div>
                         <div class="media-body">
-                            <h3 class="heading"><a href="practice.php#immigration-services">Immigration Services</h3></a>
+                            <h3 class="heading"><a href="practice.php#immigration-services">Immigration Services</h3>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -198,6 +198,7 @@
             </div>
         </div>
     </section>
+    <br /> <br />
     <section class="ftco-section ftc-no-pt">
         <div class="container">
             <div class="row no-gutters">
@@ -414,7 +415,7 @@
         </svg></div>
     <script src="js/jquery.min.js"></script>
 
-    
+
     <script src="js/jquery-migrate-3.0.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

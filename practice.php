@@ -8,7 +8,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-  <!-- <link rel="stylesheet" href="css/A.open-iconic-bootstrap.min.css+animate.css+owl.carousel.min.css+owl.theme.default.min.css+magnific-popup.css+aos.css+ionicons.min.css+bootstrap-datepicker.css+jquery.timepicker.css+flaticon.css+icomoon.css+style.css,Mcc.QEp-L0t-7x.css.pagespeed.cf.djr-S5i17M.css" /> -->
   <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
   <link rel="stylesheet" href="css/animate.css" />
   <link rel="stylesheet" href="css/owl.carousel.min.css" />
@@ -20,6 +19,7 @@
   <link rel="stylesheet" href="css/flaticon.css" />
   <link rel="stylesheet" href="css/icomoon.css" />
   <link rel="stylesheet" href="css/style111.css" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
@@ -27,35 +27,30 @@
     <div class="container">
       <a class="navbar-brand" href="index.php">Ghugelegal<span>.com</span></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Menu
+        <span class="oi oi-menu"></span> MENU
       </button>
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
           <li class="nav-item"><a href="about.php" class="nav-link">About Me</a></li>
-          <li class="nav-item active"><a href="practice.php" class="nav-link">Practice Areas</a></li>
+          <li class="nav-item active" ><a href="practice.php" class="nav-link">Practice Areas</a>
+        </li>
           <li class="nav-item"><a href="attorney.php" class="nav-link">Team</a></li>
-          <!-- <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li> -->
           <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section class="home-slider js-fullheight owl-carousel">
-    <div class="slider-item js-fullheight" style="background-image:url(images/xbg_5.webp)">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row slider-text justify-content-center align-items-center">
-          <div class="col-md-7 col-sm-12 text-center ftco-animate">
-            <h1 class="mb-3 mt-5 bread">Practice Areas</h1>
-            <p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home</a></span> <span>Practice</span></p>
-          </div>
+  <section>
+    <div>
+      <img src="images/xbg_5.webp" style="width:100%; max-height:500px">
+        <div class="w3-display-middle w3-container w3-text-white w3-padding-62">
+          <h4 style= "color:white;padding-bottom:120% !important"><b>PACTICE AREAS</b></h4> 
         </div>
       </div>
-    </div>
   </section>
-  <section class="ftco-section" id="link">
+  <section class="ftco-section">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
