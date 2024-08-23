@@ -508,25 +508,34 @@
         data-cf-beacon='{"rayId":"71a96ce42bc93c07","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}'
         crossorigin="anonymous"></script>
 
-        <script>
-  window.addEventListener('load', function() {
+    <script>
+        window.addEventListener('load', function() {
 
-    jQuery('body').on('mousedown', '[href="tel:+1 416-816-9249"]', function() {
-      gtag('event', 'conversion', {
-        'send_to': 'AW-502185208/bFOTCNKA68wZEPj5uu8B'
-      });
-    })
+        jQuery('body').on('mousedown', '[href="tel:+1 416-816-9249"]', function() {
+        gtag('event', 'conversion', {
+            'send_to': 'AW-502185208/bFOTCNKA68wZEPj5uu8B'
+        });
+        })
 
+        jQuery('body').on('mousedown', 'button:contains(Book an Appointment)', function() {
+        gtag('event', 'conversion', {
+            'send_to': 'AW-502185208/Abo3CM-A68wZEPj5uu8B'
+        });
+        })
 
-    jQuery('body').on('mousedown', 'button:contains(Book an Appointment)', function() {
-      gtag('event', 'conversion', {
-        'send_to': 'AW-502185208/Abo3CM-A68wZEPj5uu8B'
-      });
-    })
+    });
+    </script>
+    <script>
+        window.addEventListener('load', function() {
 
-  });
+            if (window.location.pathname == '/') {
+            gtag('event', 'conversion', {
+                'send_to': 'AW-502185208/lWByCI3G3_YBEPj5uu8B'
+            });\
+            }
 
-</script>
+    });
+    </script>
 </body>
 
 </html>
