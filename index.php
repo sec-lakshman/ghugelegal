@@ -4,6 +4,15 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-502185208"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-502185208');
+</script>
     <title>Ghuge Legal Services</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -498,6 +507,26 @@
         integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw=="
         data-cf-beacon='{"rayId":"71a96ce42bc93c07","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}'
         crossorigin="anonymous"></script>
+
+        <script>
+  window.addEventListener('load', function() {
+
+    jQuery('body').on('mousedown', '[href="tel:+1 416-816-9249"]', function() {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-502185208/bFOTCNKA68wZEPj5uu8B'
+      });
+    })
+
+
+    jQuery('body').on('mousedown', 'button:contains(Book an Appointment)', function() {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-502185208/Abo3CM-A68wZEPj5uu8B'
+      });
+    })
+
+  });
+
+</script>
 </body>
 
 </html>
