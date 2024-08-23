@@ -92,7 +92,7 @@
        <section class="ftco-section ftc-no-pb ftc-no-pt bg-light">
          <div class="container">
             <!-- Calendly inline widget begin -->
-            <div class="calendly-inline-widget" data-url="https://calendly.com/ghugelegal/30min" style="min-width:320px;height:700px;"></div>
+            <div class="calendly-inline-widget" data-url="https://calendly.com/ghugelegal-info/15min" style="min-width:320px;height:700px;"></div>
             <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
             <!-- Calendly inline widget end -->
          </div>

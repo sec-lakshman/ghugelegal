@@ -55,7 +55,7 @@
                     partnership with lawyers and immigration
                     consultants <br /> across Canada.</b></p>
                     <a style="overflow:hidden" href=""
-                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal/30min'});return false;">
+                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal-info/15min'});return false;">
                     <button class="button-63" role="button">Book an Appointment</button>  <br />
                     <img style="width:150px;height:150px" src="images/notary.png" />
                 <!-- </div> -->
@@ -334,8 +334,7 @@
     <!-- Calendly link widget begin -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal/30min'});return false;">Schedule
-        time with me</a>
+    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal-info/15min'});return false;">Schedule time with me</a>
     <!-- Calendly link widget end -->
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
