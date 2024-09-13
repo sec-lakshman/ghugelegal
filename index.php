@@ -88,7 +88,7 @@
                     </b>
                 </p>
     
-                !-- Appointment and Call Buttons -->
+                <!-- Appointment and Call Buttons -->
                 <div style="margin-top: 20px;">
                     <!-- Online Appointment Button -->
                     <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal-info/15min'}); return false;">
