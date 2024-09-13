@@ -66,10 +66,8 @@
                     <b>
                         We are a major notary service provider in the GTA. <br />
                         Our expertise lies in notarizing legal and title documents <br />
-                        for US title companies. <br />
-                        
-                        We follow the guidelines set by the Law Society of Ontario <br />
-                        and the Ministry of the Attorney General. <br />
+                        for US title companies. We follow the guidelines set by the <br />
+                        Law Society of Ontario and the Ministry of the Attorney General. <br />
                         We offer these services at the most reasonable rates.
                     </b>
                 </p>
