@@ -88,10 +88,22 @@
                     </b>
                 </p>
     
-                <!-- Appointment Button -->
-                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal-info/15min'}); return false;">
-                    <button class="button-63" role="button">Book an Appointment</button>
-                </a>
+                <!-- Appointment and Call Buttons -->
+                <div style="margin-top: 20px;">
+                    <!-- Online Appointment Button -->
+                    <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal-info/15min'}); return false;">
+                        <button class="button-63" style="width: 100%; padding: 10px; margin-bottom: 10px;" role="button">
+                            Click here to book an online appointment
+                        </button>
+                    </a>
+    
+                    <!-- Call Button -->
+                    <a href="tel:+14168169249">
+                        <button class="button-63" style="width: 100%; padding: 10px;" role="button">
+                            Call +1 416-816-9249
+                        </button>
+                    </a>
+                </div>
     
                 <!-- Notary Icon -->
                 <br />
