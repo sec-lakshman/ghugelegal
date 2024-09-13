@@ -49,28 +49,52 @@
             </div>
         </div>
     </nav>
-
+    
     <section class="hero-wrap d-flex js-fullheight">
         <div class="forth js-fullheight d-flex align-items-center">
-            <span class="third about-img js-fullheight"
-                style="background-image:url(images/img11.jpg);width:100%;"></span>
+            <!-- Background Image -->
+            <span class="third about-img js-fullheight" 
+                  style="background-image: url('images/img11.jpg'); width: 100%;"></span>
+    
+            <!-- Text Content -->
             <div class="text col-md-6 col-lg-3" style="padding-top: 25%;">
                 <span class="subheading">Welcome to,</span>
-                <h1>Ghuge Immigration and <p>Legal Services</p></h1>
-                <p style="color:black;font-weight:200"><b>*Our Notary Charges for the First Page is $19.99 and <br />
-                        rest at $9.99 per page for Certified True
-                        Copies only</b></p>
-                <p style="color:black;font-weight:200"><b>B2B Service - We offer immigration law services in <br />
-                    partnership with lawyers and immigration
-                    consultants <br /> across Canada.</b></p>
-                    <a style="overflow:hidden" href=""
-                    onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal-info/15min'});return false;">
-                    <button class="button-63" role="button">Book an Appointment</button>  <br />
-                    <img style="width:150px;height:150px" src="images/notary.png" />
-                <!-- </div> -->
+                <h1>Ghuge Immigration and <br /> Legal Services</h1>
+                
+                <!-- Notary Service Description -->
+                <p style="color: black; font-weight: 200;">
+                    <b>
+                        * We are one of the major notary service providers in the GTA, with extensive expertise notarizing numerous legal and title documents for US title companies.
+                        We notarize documents in accordance with the Law Society of Ontario and the Ministry of the Attorney General of Ontario, at the most reasonable rates in the GTA.
+                    </b>
+                </p>
+                
+                <!-- Notary Charges -->
+                <p style="color: black; font-weight: 200;">
+                    <b>
+                        Our Notary Charges for the first page are $19.99, with additional pages at $9.99 per page for Certified True Copies only.
+                    </b>
+                </p>
+    
+                <!-- B2B Service Description -->
+                <p style="color: black; font-weight: 200;">
+                    <b>
+                        B2B Service - We offer immigration law services in partnership with lawyers and immigration consultants across Canada.
+                    </b>
+                </p>
+    
+                <!-- Appointment Button -->
+                <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/ghugelegal-info/15min'}); return false;">
+                    <button class="button-63" role="button">Book an Appointment</button>
+                </a>
+    
+                <!-- Notary Icon -->
+                <br />
+                <img src="images/notary.png" style="width: 150px; height: 150px;" alt="Notary Icon" />
             </div>
         </div>
     </section>
+
 
     <section class="ftco-section ftco-services">
         <div class="container" id="link">
