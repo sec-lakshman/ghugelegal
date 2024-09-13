@@ -64,10 +64,11 @@
                 <!-- Notary Service Description -->
                 <p style="color: black; font-weight: 200;">
                     <b>
-                        * We are a major notary service provider in the GTA. 
-                        Our expertise lies in notarizing legal and title documents 
-                        for US title companies. We follow the guidelines set by 
-                        the Law Society of Ontario and the Ministry of the Attorney General. 
+                        * We are a major notary service provider in the GTA. <br />
+                        Our expertise lies in notarizing legal and title documents <br />
+                        for US title companies. <br />
+                        We follow the guidelines set by the Law Society of Ontario <br />
+                        and the Ministry of the Attorney General. <br />
                         We offer these services at the most reasonable rates.
                     </b>
                 </p>
@@ -75,7 +76,7 @@
                 <!-- Notary Charges -->
                 <p style="color: black; font-weight: 200;">
                     <b>
-                        Our Notary Charges start at $19.99 for the first page. 
+                        Our Notary Charges start at $19.99 for the first page. <br />
                         Additional pages are charged at $9.99 each for Certified True Copies.
                     </b>
                 </p>
@@ -83,8 +84,8 @@
                 <!-- B2B Service Description -->
                 <p style="color: black; font-weight: 200;">
                     <b>
-                        B2B Service: We offer immigration law services in collaboration 
-                        with lawyers and immigration consultants across Canada.
+                        B2B Service: We offer immigration law services <br />
+                        in collaboration with lawyers and immigration consultants across Canada.
                     </b>
                 </p>
     
@@ -99,7 +100,6 @@
             </div>
         </div>
     </section>
-
 
     <section class="ftco-section ftco-services">
         <div class="container" id="link">
