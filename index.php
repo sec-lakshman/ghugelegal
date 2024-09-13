@@ -60,26 +60,31 @@
             <div class="text col-md-6 col-lg-3" style="padding-top: 25%;">
                 <span class="subheading">Welcome to,</span>
                 <h1>Ghuge Immigration and <br /> Legal Services</h1>
-                
+    
                 <!-- Notary Service Description -->
                 <p style="color: black; font-weight: 200;">
                     <b>
-                        * We are one of the major notary service providers in the GTA, with extensive expertise notarizing numerous legal and title documents for US title companies.
-                        We notarize documents in accordance with the Law Society of Ontario and the Ministry of the Attorney General of Ontario, at the most reasonable rates in the GTA.
+                        * We are a major notary service provider in the GTA. 
+                        Our expertise lies in notarizing legal and title documents 
+                        for US title companies. We follow the guidelines set by 
+                        the Law Society of Ontario and the Ministry of the Attorney General. 
+                        We offer these services at the most reasonable rates.
                     </b>
                 </p>
-                
+    
                 <!-- Notary Charges -->
                 <p style="color: black; font-weight: 200;">
                     <b>
-                        Our Notary Charges for the first page are $19.99, with additional pages at $9.99 per page for Certified True Copies only.
+                        Our Notary Charges start at $19.99 for the first page. 
+                        Additional pages are charged at $9.99 each for Certified True Copies.
                     </b>
                 </p>
     
                 <!-- B2B Service Description -->
                 <p style="color: black; font-weight: 200;">
                     <b>
-                        B2B Service - We offer immigration law services in partnership with lawyers and immigration consultants across Canada.
+                        B2B Service: We offer immigration law services in collaboration 
+                        with lawyers and immigration consultants across Canada.
                     </b>
                 </p>
     
